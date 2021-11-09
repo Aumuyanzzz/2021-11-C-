@@ -3,53 +3,53 @@
 #include<string.h>
 //int main()
 //{
-//	int a = 0;//;·ûºÅ¸ô¿ªÓï¾ä£¬µ¥¸ö;±íÊ¾¿ÕÓï¾ä
-//	//ifÓï¾ä¸ñÊ½
+//	int a = 0;//;ç¬¦å·éš”å¼€è¯­å¥ï¼Œå•ä¸ª;è¡¨ç¤ºç©ºè¯­å¥
+//	//ifè¯­å¥æ ¼å¼
 //	if(a = 0)
-//		a = 0;//¢Ù
+//		a = 0;//â‘ 
 //	 
 //	if (a = 1)
 //		a = 1;
 //	else
-//		a = 3;//¢Ú
+//		a = 3;//â‘¡
 //
 //	if (a = 1)
 //		a = 1;
 //	else if (a = 0)
 //		a = 0;
 //	else
-//		a = 3;//¢Û
+//		a = 3;//â‘¢
 //
 //	return 0;
 ////}
 //
-////¾ÙÀı
+////ä¸¾ä¾‹
 //int main()
 //{
 //	int age = 51;
 //	if (age >= 18)
-//		printf("³ÉÄê\n");
+//		printf("æˆå¹´\n");
 //	if (age < 18)
-//		printf("Î´³ÉÄê\n");
+//		printf("æœªæˆå¹´\n");
 //	/*else if (age = 18)
-//		printf("¸Õ³ÉÄê\n");*/
-//	else if (age >= 18 && age < 50)//&&±íÊ¾½»¼¯ ||±íÊ¾²¢¼¯
-//		printf("×³Äê\n");
+//		printf("åˆšæˆå¹´\n");*/
+//	else if (age >= 18 && age < 50)//&&è¡¨ç¤ºäº¤é›† ||è¡¨ç¤ºå¹¶é›†
+//		printf("å£®å¹´\n");
 //	else 
-//		printf("ÒÑ³ÉÄê\n");
+//		printf("å·²æˆå¹´\n");
 //
 //	return 0;
 //}
 /*if
  else if
 else
-¿ÉÒÔĞ´³É
+å¯ä»¥å†™æˆ
 if
 else
 {if
 else if
 else}*/
-//ifÓï¾ä£¨º¯Êı£©ºó{}±íÊ¾´úÂë¿é£¬µ¥¸ö±í´ïÊ½¿ÉÒÔÊ¡ÂÔ{}£¬¶à¸ö±í´ïÊ½²»¿ÉÊ¡ÂÔ{}
+//ifè¯­å¥ï¼ˆå‡½æ•°ï¼‰å{}è¡¨ç¤ºä»£ç å—ï¼Œå•ä¸ªè¡¨è¾¾å¼å¯ä»¥çœç•¥{}ï¼Œå¤šä¸ªè¡¨è¾¾å¼ä¸å¯çœç•¥{}
 
 //int main()
 //{
@@ -59,7 +59,7 @@ else}*/
 //		if (b == 2)
 //			printf("hehe\n");
 //		else
-//			printf("haha\n");//elseºÍ×î½üµÄifÆ¥Åä£»ºÏÀíÓ¦ÓÃ{}´úÂë¿é
+//			printf("haha\n");//elseå’Œæœ€è¿‘çš„ifåŒ¹é…ï¼›åˆç†åº”ç”¨{}ä»£ç å—
 //	else
 //		printf("hhh\n");
 //	return 0;
@@ -69,11 +69,11 @@ else}*/
 //	int a = 0;
 //	scanf("%d\n", &a);
 //	if (1 == a % 2)
-//		printf("ÆæÊı\n");
+//		printf("å¥‡æ•°\n");
 //	else if(0 == a%2)
-//		printf("Å¼Êı\n");
+//		printf("å¶æ•°\n");
 //	return 0;
-//}//Á·Ï°£ºÅĞ¶ÏÒ»¸öÊıÊÇ·ñÊÇÆæÊı
+//}//ç»ƒä¹ ï¼šåˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯å¦æ˜¯å¥‡æ•°
 //int main()
 //{
 //	int a = 1;
@@ -84,19 +84,19 @@ else}*/
 //		a++;
 ////	}
 ////	return 0;
-////}//Á·Ï°£ºÊä³ö1µ½100Ö®¼äµÄÆæÊı
+////}//ç»ƒä¹ ï¼šè¾“å‡º1åˆ°100ä¹‹é—´çš„å¥‡æ•°
 //int main()
 //{
 //	int day = 0;
 //	scanf("%d", &day);
 //	if (day == 1)
-//		printf("ĞÇÆÚÒ»\n");
+//		printf("æ˜ŸæœŸä¸€\n");
 //	else if (2 == day)
-//		printf("ĞÇÆÚ¶ş\n");
+//		printf("æ˜ŸæœŸäºŒ\n");
 //	else if (3 == day)
-//		printf("ĞÇÆÚÈı\n");
+//		printf("æ˜ŸæœŸä¸‰\n");
 //	else if (4 == day)
-//		printf("ĞÇÆÚËÄ\n");
+//		printf("æ˜ŸæœŸå››\n");
 //
 //
 //	return 0;
@@ -108,22 +108,22 @@ else}*/
 //	switch(day)
 //	{
 //		case 1:
-//			printf("ĞÇÆÚÒ»\n");
+//			printf("æ˜ŸæœŸä¸€\n");
 //		case 2:
-//				printf("ĞÇÆÚ¶ş\n");
+//				printf("æ˜ŸæœŸäºŒ\n");
 //		case 3:
-//					printf("ĞÇÆÚÈı\n");
+//					printf("æ˜ŸæœŸä¸‰\n");
 //		case 4:
-//						printf("ĞÇÆÚËÄ\n");
+//						printf("æ˜ŸæœŸå››\n");
 //		case 5:
-//							printf("ĞÇÆÚÎå\n");
+//							printf("æ˜ŸæœŸäº”\n");
 //		case 6:
-//								printf("ĞÇÆÚÁù\n");
+//								printf("æ˜ŸæœŸå…­\n");
 //		case 7:
-//								printf("ĞÇÆÚÌì\n");
+//								printf("æ˜ŸæœŸå¤©\n");
 //	}
 //									return 0;
-//}//break Ìø³ö/ÖÕÖ¹Ñ­»·£»default;  ¼ì²â´íÎó£¬¼ì²âÈ¡Öµ
+//}//break è·³å‡º/ç»ˆæ­¢å¾ªç¯ï¼›default;  æ£€æµ‹é”™è¯¯ï¼Œæ£€æµ‹å–å€¼
  
 //int main()
 //{
@@ -131,7 +131,7 @@ else}*/
 //	while (a <= 10)
 //	{
 //		if (a == 5)
-//			continue;//ÖĞÖ¹Ñ­»·ÖĞ±¾´ÎÑ­»·continueºóÃæµÄ´úÂë£¬Ìøµ½Ñ­»·¿ªÍ·
+//			continue;//ä¸­æ­¢å¾ªç¯ä¸­æœ¬æ¬¡å¾ªç¯continueåé¢çš„ä»£ç ï¼Œè·³åˆ°å¾ªç¯å¼€å¤´
 //		printf("%d\n", a);
 //		a++;
 //
@@ -142,8 +142,8 @@ else}*/
 //int main()
 //{
 //
-//	int ch = getchar();//getchar:½ÓÊÕÒ»¸ö·µ»ØµÄ×Ö·û
-//	putchar(ch);//putchar:´òÓ¡Ò»¸ö×Ö·û
+//	int ch = getchar();//getchar:æ¥æ”¶ä¸€ä¸ªè¿”å›çš„å­—ç¬¦
+//	putchar(ch);//putchar:æ‰“å°ä¸€ä¸ªå­—ç¬¦
 //	printf("%c\n", ch);
 //	return 0;
 //}
@@ -151,7 +151,7 @@ else}*/
 int main()
 {
 	int ch = 0;
-	while ((ch = getchar()) != EOF)//ctrl+Z	½áÊøÑ­»· EOF- end of file -> -1
+	while ((ch = getchar()) != EOF)//ctrl+Z	ç»“æŸå¾ªç¯ EOF- end of file -> -1
 
 		putchar(ch);
 	}
