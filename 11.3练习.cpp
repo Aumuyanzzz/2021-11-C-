@@ -10,11 +10,11 @@
 //		return a;
 
 //}
-//int main()//exp1?exp2:exp3;Ò»¸ö±í´ïÊ½£»exp1ÎªÕæ exp2ÎªÕû¸ö±í´ïÊ½µÄ½á¹û£»exp1Îª¼Ù£¬exp3ÎªÕû¸ö±í´ïÊ½½á¹û
-////Ìõ¼þ²Ù×÷·û/ÈýÄ¿²Ù×÷·û
+//int main()//exp1?exp2:exp3;ä¸€ä¸ªè¡¨è¾¾å¼ï¼›exp1ä¸ºçœŸ exp2ä¸ºæ•´ä¸ªè¡¨è¾¾å¼çš„ç»“æžœï¼›exp1ä¸ºå‡ï¼Œexp3ä¸ºæ•´ä¸ªè¡¨è¾¾å¼ç»“æžœ
+////æ¡ä»¶æ“ä½œç¬¦/ä¸‰ç›®æ“ä½œç¬¦
 //
 //{
-//	int a = 10;//½¨Òé°ÑÕûÐÎa¶¨Òå³É¼Ä´æÆ÷±äÁ¿
+//	int a = 10;//å»ºè®®æŠŠæ•´å½¢aå®šä¹‰æˆå¯„å­˜å™¨å˜é‡
 //	int a = -2;
 //	int a = 3;
 //	/*int b = 20;
@@ -127,15 +127,15 @@ struct Book
 };
 int main()
 {
-	struct Book b1 = {"CÓïÑÔ³ÌÐòÉè¼Æ",55};
-	printf("ÊéÃû£º%s\n", b1.name);
-	printf("¼Û¸ñ£º%dÔª\n", b1.price);
+	struct Book b1 = {"Cè¯­è¨€ç¨‹åºè®¾è®¡",55};
+	printf("ä¹¦åï¼š%s\n", b1.name);
+	printf("ä»·æ ¼ï¼š%då…ƒ\n", b1.price);
 	b1.price = 15;
 	strcpy(b1. name, "C++");
-	printf("ÐÞ¸ÄºóµÄ¼Û¸ñ£º%dÔª\n", b1.price);
+	printf("ä¿®æ”¹åŽçš„ä»·æ ¼ï¼š%då…ƒ\n", b1.price);
 	struct Book* p = &b1;
-	/*printf("ÊéÃû£º%s\n",  (*p).name);
-	printf("¼Û¸ñ£º%dÔª\n", (*p).price);*/
+	/*printf("ä¹¦åï¼š%s\n",  (*p).name);
+	printf("ä»·æ ¼ï¼š%då…ƒ\n", (*p).price);*/
 	printf("%s\n", p->name);
 	printf("%d\n", p->price);
 
