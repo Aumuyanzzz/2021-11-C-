@@ -19,19 +19,19 @@ int main()
 	while (a < 3)
 	{
 		int ch = 0;
-		printf("ÇëÊäÈëĞÂÃÜÂë:>");
+		printf("è¯·è¾“å…¥æ–°å¯†ç :>");
 		scanf("%s", password);
 		
 		while((ch = getchar()) != '\n');
 		{
 
 		}
-		printf("ÊÇ·ñÈ·ÈÏÉèÖÃÎªĞÂÃÜÂë[Y/N]:>\n");
+		printf("æ˜¯å¦ç¡®è®¤è®¾ç½®ä¸ºæ–°å¯†ç [Y/N]:>\n");
 		ret = getchar();
 		if (ret == 'Y') 
 		{
 			int t = 0;
-			printf("ĞŞ¸Ä³É¹¦£¬ĞÂÃÜÂë£º\n"),
+			printf("ä¿®æ”¹æˆåŠŸï¼Œæ–°å¯†ç ï¼š\n"),
 				printf("%s", password);
 			while (t = getchar()!=  '\n');
 			{
@@ -40,7 +40,7 @@ int main()
 		}
 		else if (ret == 'N')
 		{
-			printf("·ÅÆúÈ·ÈÏ\n");
+			printf("æ”¾å¼ƒç¡®è®¤\n");
 			while (getchar() != '\n');
 			{
 
@@ -51,7 +51,7 @@ int main()
 		
 		else
 		{
-			printf("´íÎóÊäÈë\n");
+			printf("é”™è¯¯è¾“å…¥\n");
 			while (getchar() != '\n');
 			{
 
@@ -68,20 +68,20 @@ int main()
 //{
 //	int ret = 0;
 //	char password[10] = { 0 };
-//	printf("ÇëÊäÈëÃÜÂë:>");
+//	printf("è¯·è¾“å…¥å¯†ç :>");
 //	scanf("%s", password);
 //	getchar();
-//	printf("ÇëÈ·ÈÏ[Y/N]:>");
+//	printf("è¯·ç¡®è®¤[Y/N]:>");
 //	ret = getchar();
 //	if(ret == 'Y')
 //	{
-//		printf("È·ÈÏ³É¹¦\n");
+//		printf("ç¡®è®¤æˆåŠŸ\n");
 //
 //	}
 //	else
 //	{
 //
-//		printf("·ÅÆúÈ·ÈÏ\n");
+//		printf("æ”¾å¼ƒç¡®è®¤\n");
 //	}
 //	return 0;
 //
