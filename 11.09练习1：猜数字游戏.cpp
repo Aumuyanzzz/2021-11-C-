@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-//²ÂÊı×ÖÓÎÏ·
+//çŒœæ•°å­—æ¸¸æˆ
 void menu() 
 {
 	printf("********************************\n");
@@ -21,11 +21,11 @@ void game()
 	{
 		scanf("%d", &m);
 		if (m > c)
-			printf("´óÁË\n");
+			printf("å¤§äº†\n");
 		else if (m < c)
-			printf("Ğ¡ÁË\n");
+			printf("å°äº†\n");
 		else if (m = c)
-			printf("¹§Ï²Äã£¬²ÂÖĞÁË£¡\n");
+			printf("æ­å–œä½ ï¼ŒçŒœä¸­äº†ï¼\n");
 	}
 		
 
@@ -40,24 +40,24 @@ int main()
 	do
 	{
 		menu();
-		printf("ÇëÑ¡Ôñ:>");
+		printf("è¯·é€‰æ‹©:>");
 		scanf("%d", &a);
 		switch (a)
 		{
 		case 1:
 		{
-			printf("»¶Ó­ÓÎÍæ²ÂÊı×ÖÓÎÏ·\nÇëÊäÈë:>");
+			printf("æ¬¢è¿æ¸¸ç©çŒœæ•°å­—æ¸¸æˆ\nè¯·è¾“å…¥:>");
 			game();
 			break;
 		}
 		case 0:
 		{
-			printf("ÍË³öÓÎÏ·\n");
+			printf("é€€å‡ºæ¸¸æˆ\n");
 			break;
 		}
 		default:
 		{
-			printf("´íÎóÖ¸Áî\n");
+			printf("é”™è¯¯æŒ‡ä»¤\n");
 			break;
 		}
 		}
